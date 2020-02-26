@@ -1,21 +1,21 @@
 {
-  "paginas": [{
+  "pages": [{
       "nombre": "HTML",
-      "imagen": "background-image: url('./img/caratulas/objetos.png');",
+      "bg": "background-image: url('img/redbg.jpg');",
       "titulo": "Creacion de paginas web.",
       "detalle": "Instanciar objetos desde un constructor, e interactuar con ellos",
       "url": "./microsites/objetos/index.html"
     },
     {
       "nombre": "CSS",
-      "imagen": "background-image: url('./img/caratulas/canvashtml5.png');",
+      "bg": "background-image: url('img/bluebg.jpg');",
       "titulo": "Estilo y diseño.",
       "detalle": "Cómo utilizar el elemento HTML <canvas> para desarrollar un pequeño videojuego.",
       "url": "./microsites/htmlcanvas/index.html"
     },
     {
-      "nombre": "javaScript",
-      "imagen": "background-image: url('./img/caratulas/mediaqueries.png');",
+      "nombre": "JavaScript",
+      "bg": "background-image: url('img/yellowbg.jpg');",
       "titulo": "Funcionamiento logico.",
       "detalle": "Introducción al desarrollo responsive. Los @media se utilizan en CSS para consultar cómo es el medio que utiliza el usuario para interactuar con nuestro sitio.",
       "url": "./microsites/mediaqueries/index.html"

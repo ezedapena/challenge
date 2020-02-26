@@ -1,0 +1,133 @@
+{
+  "data": [{
+      "nombre": "<!DOCTYPE html>",
+      "titulo": "Inicio",
+      "detalle": "Esta etiqueta indicara cual sera el lenguaje en el que trabajaremos, debe ponerse en la primera linea y no necesita cerrarse."
+    },
+    {
+      "nombre": "<html lang='xx'>",
+      "titulo": "Inicio",
+      "detalle": "Esta etiqueta indica el inicio de nuestro trabajo y el atributo lang='xx' indicara en idioma de la pagina. Ademas la etiqueta debera cerrarse al final con un </html>."
+    },
+    {
+      "nombre": "<title>",
+      "titulo": "Encabezados",
+      "detalle": "Esta etiqueta indicara cual es el titulo de nuestra pagina, debe cerrarse con un </title>."
+    },
+    {
+      "nombre": "<link href='MyStyle.css'>",
+      "titulo": "Encabezados",
+      "detalle": "Esta etiqueta nos cargara nuestra hoja de estilo, ademas no necesita cerrarse."
+    },
+    {
+      "nombre": "<head>",
+      "titulo": "Encabezados",
+      "detalle": "La etiqueta <head> indicara el inicio de los encabezados de la pagina, en el se cargaran las hojas de estilo y se pondra titulo a la pagina, entre otras cosas, ademas debe cerrarse con un </head>."
+    },
+    {
+      "nombre": "<body>",
+      "titulo": "Cuerpo",
+      "detalle": "Esta etiqueta como dice su nombre es el cuerpo de nuestra pagina, aqui colocaremos todo lo que se vera en la pagina. Ademas debe cerrarse con un </body> al final."
+    },
+    {
+      "nombre": "<div>",
+      "titulo": "Bloque",
+      "detalle": "La etiqueta <div> agrupara a todo lo que se encuentre dentro de el en un bloque, y asi agrupar a elementos parecidos o moviendo el bloque acomodaremos todo junto, ademas debe cerrarse con un </div>. Ademas de esta surgieron otras etiquetas que hacen lo mismo pero dan mas informacion, como el <header>, <main>, <footer> por ejemplo."
+    },
+    {
+      "nombre": "<p>",
+      "titulo": "Texto",
+      "detalle": "La etiqueta <p> indica que se colocara texto, la misma debe cerrarse con </p> y se indentara al cerrarse."
+    },
+    {
+      "nombre": "<pre>",
+      "titulo": "Texto",
+      "detalle": "La etiqueta <pre> indica que se colocara texto, la misma debe cerrarse con </pre> y se indentara al cerrarse."
+    },
+    {
+      "nombre": "<h1>,<h2>,...,<h6>",
+      "titulo": "Texto",
+      "detalle": "Las etiquetas hX indican que es un texto con cierto peso en la pagina, mientras menor el numero mayor el peso, la etiqueta debe cerrarse con un </hX>, siendo X el numero con el que se abrio."
+    },
+    {
+      "nombre": "<ul>",
+      "titulo": "Lista",
+      "detalle": "La etiqueta <ul> indica el inicio de una lista desordenada, es decir, se colocaran items sin ninguna numeracion, la misma debe cerrarse con un </ul>."
+    },
+    {
+      "nombre": "<ol>",
+      "titulo": "Lista",
+      "detalle": "La etiqueta <ol> indica el inicio de una lista ordenada, es decir, se colocaran items de numeracion, la misma debe cerrarse con un </ol>."
+    },
+    {
+      "nombre": "<li>",
+      "titulo": "Lista",
+      "detalle": "La etiqueta <li> indica que se colocara un item del tipo de la lista padre, debajo de un <ul> o <ol> solo puede haber un <li>, es decir, es su unico hijo posible, ademas debe cerrarse con un </li>."
+    },
+    {
+      "nombre": "<a>",
+      "titulo": "Link",
+      "detalle": "La etiqueta <a href='XXXXXXX.html'>Link </a> indica que el texto encerrado sera un link que al ser clickeado abrira la pagina del atributo href, ademas debe cerrarse con un </a>."
+    },
+    {
+      "nombre": "<table>",
+      "titulo": "Tabla",
+      "detalle": "La etiqueta <table> indica el inicio de una tabla, la misma debe cerrarse con un </table>."
+    },
+    {
+      "nombre": "<thead>",
+      "titulo": "Tabla",
+      "detalle": "La etiqueta <thead> indica que trabajaremos en el encabezado de una tabla, ademas debe cerrarse con un </thead>." 
+    },
+    {
+      "nombre": "<tbody>",
+      "titulo": "Tabla",
+      "detalle": "La etiqueta <tbody> indica que trabajaremos en el cuerpo de una tabla, ademas debe cerrarse con un </tbody>." 
+    },
+    {
+      "nombre": "<tr>",
+      "titulo": "Tabla",
+      "detalle": "La etiqueta <tr> nos agregara una fila a la tabla y ademas nos permitira modificarla, debe cerrarse con un </tr> y este dara a entender que terminamos de modificar esa fila." 
+    },
+    {
+      "nombre": "<th>",
+      "titulo": "Tabla",
+      "detalle": "La etiqueta <th> indica que colocaremos un encabezado de la tabla, debe cerrarse con un </th> y, en caso de haber varios encabezados, haber un <th> y </th> por cada uno de ellos." 
+    },
+    {
+      "nombre": "<td rowspan='X' colspan='Y'>",
+      "titulo": "Tabla",
+      "detalle": "La etiqueta <td> indica que trabajaremos en una celda de la tabla, la misma debe cerrarse con un </td> y los atributos colspan y rowspan nos permitiran hacer que la celda sea mas grande en caso de requerirlo." 
+    },
+    {
+      "nombre": "<form method='XXX' action='XXXXXXX.html'>",
+      "titulo": "Formulario",
+      "detalle": "La etiqueta <form> indica que iniciaremos un formulario, el metodo definira que haremos, el mas comun es el 'get' que toma los datos que colocamos en el formulario, y el 'action' la pagina a la cual redirijira, ademas debe cerrarse con un </form>." 
+    },
+    {
+      "nombre": "<label for='idDelInput'>",
+      "titulo": "Formulario",
+      "detalle": "La etiqueta <label> nos permitira colocar un texto que describa cual es la finalidad de un campo, ademas se relacionara con el input que tanga el id igual a lo que este dentro de su atributo for." 
+    },
+    {
+      "nombre": "<input type='text' name='tipoDeDato'>",
+      "titulo": "Formulario",
+      "detalle": "La etiqueta <input type='text'> nos permitira colocar texto y enviarlo como datos, el atributo name indicara bajo cual 'key' se guardara, esta etiqueta no necesita cerrrarse." 
+    },
+    {
+      "nombre": "<input type='radio' name='typeDeDato' value='informacionEnviada'>",
+      "titulo": "Formulario",
+      "detalle": "La etiqueta <input type='radio'> nos permitira colocar distintas opciones de las cuales solo de puede elegir una, estas opciones todas deberan tener el mismo name y un distinto value, ya que la opcion elegida enviara un value especifico. No necesita cerrarse." 
+    },
+    {
+      "nombre": "<input type='checkbox' name='typeDeDato' value='informacionEnviada'>",
+      "titulo": "Formulario",
+      "detalle": "La etiqueta <input type='checkbox'> nos permitira colocar distintas opciones de las cuales se pueden elegir ninguna, alguna o todas. Estas opciones deberan tener todas el mismo name y un value distinto, ya que cada una enviara informacion distinta. No necesita cerrarse." 
+    },
+    {
+      "nombre": "<input type='submit' value='Register'>",
+      "titulo": "Formulario",
+      "detalle": "La etiqueta <input type='submit'> nos permitira colocar un boton que al pulsarlo enviara todos los datos y abrira la pagina a la cual se hace referencia en la etiqueta <form>, y el atributo value sera el texto que saldra en el boton. No necesita cerrarse." 
+    },
+  ]
+}
