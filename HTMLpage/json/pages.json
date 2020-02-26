@@ -1,0 +1,24 @@
+{
+  "data": [{
+      "nombre": "Example",
+      "titulo": "Example title",
+      "detalle": "Information"
+    },
+    {
+      "nombre": "Example 2",
+      "titulo": "Example title",
+      "detalle": "Information"
+    },
+    {
+      "nombre": "Example 3",
+      "titulo": "Example title",
+      "detalle": "Information"
+    },
+    {
+      "nombre": "Example 4",
+      "titulo": "Example title",
+      "detalle": "Information"
+    }
+
+  ]
+}

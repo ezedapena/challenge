@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Ezequiel Dapena - Leandro Alvarez">
+  <title>MIL3R´s HTML Guide</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/css.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div id="app" class="bg-light d-flex flex-column justify-content-between">
+    <nav class="navbar  navbar-light bg-dark navbar-expand-md">
+      <a class="navbar-brand mr-4" href="">
+        <img id="logo" class="d-none d-sm-inline" src="img/logo.png" alt="logo">
+        <img id="logo" class="d-sm-none" src="img/logo.png" alt="logo">
+        <h1 class="text-white d-inline ">JavaScript</h1>
+        <span class="d-none d-lg-inline text-white"> | Enter the world of JS with the MIL3Rs!</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse " id="navbarToggler">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#references">Help</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="m-0 flex-grow-1 d-flex flex-wrap align-items-center justify-content-center bg-light">
+      
+
+    </main>
+
+    <footer class="bg-dark text-white text-center p-3 sticky">
+      <p>"Ezequiel Dapena ; Leando Alvarez ; Mauro Alvarez ; Ivan De oli ; Erica Curima - &#x1F1E6;&#x1F1F7; - &copy; 2020"</p>
+  </footer>
+  
+
+
+
+  <div class="modal fade" id="references" tabindex="-1" role="dialog" aria-labelledby="referencesLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="referencesLabel">Help</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Learn about JavaScript, just have fun!.</p>          
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-purple" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- <script src="js/vue.js"></script> -->
+  <script src="js/vue.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

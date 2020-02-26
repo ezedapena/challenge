@@ -1,0 +1,65 @@
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.bg-purple {
+  background-color: #e6470e;
+}
+
+.btn-purple {
+  color: #fff;
+  background-color: #e6470e;
+  border-color: #e6470e ;
+}
+
+.btn-purple:hover {
+  color: #e6470e;
+  background-color: #edda4a;
+  border-color: #e6470e;
+}
+
+#logo {
+  max-height: 70px;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+body,
+#app {
+  min-height: 100vh;
+  max-height: 100%;
+  min-height: calc(var(--vh, 1vh) * 100);
+}
+
+main {
+  height: 100%;
+  background: url("../img/HTML5.png"), linear-gradient(45deg, #edda4a, #e6470e);
+  /* background-color: hsla(27, 98%, 54%, 0.308); */
+  /* background-image: url("../img/glamorous.svg"); */
+  box-shadow: inset #292b29 0px 1px 20px 0px;
+}
+
+footer a,
+footer a:hover,
+footer a:active,
+footer a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-linethrough {
+  text-decoration: line-through;
+}
+
+h1 .text-linethrough {
+  font-size: 0.75em;
+}
+
+.modal-body img {
+  width: 100px;
+  height: 100px;
+}
