@@ -39,30 +39,33 @@ const app = new Vue({
     principal:{
       props:['array'],
       template:`
+    
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
-   
+      <template v-if="array.length != 0">
         <div class="carousel-inner">
         <div class="carousel-item active slide" id="linkHTML" :style="array[0].bg">
-          <div class="d-flex justify-content-center flex-column align-items-center" >
-            <h2>{{array[0].nombre}}</h2>
-            <a href="HTMLpage/html.html" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Go to HTML!</a>
+          <div class="d-flex justify-content-center flex-column align-items-center slide-container" onclick="location.href='HTMLpage/html.html';">
+            <img src="img/htmlogo.png" class="imgResponsive">
+            <img src="img/htmlimage.png" height="50%">
           </div>
         </div>
         <div class="carousel-item slide" id="linkCSS" :style="array[1].bg">
-          <div class="d-flex justify-content-center flex-column align-items-center" >
-            <h2>{{array[1].nombre}}</h2>
-            <a href="CSSpage/css.html" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Go to CSS!</a>
+          <div class="d-flex justify-content-center flex-column align-items-center slide-container" onclick="location.href='CSSpage/css.html';">
+          <img src="img/csslogo.png" class="imgResponsive">
+          <img src="img/cssimage.png" height="50%">
+
           </div>
         </div>
         <div class="carousel-item slide" id="linkJS" :style="array[2].bg">
-          <div class="d-flex justify-content-center flex-column align-items-center" >
-            <h2>{{array[2].nombre}}</h2>
-            <a href="JSpage/js.html" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Go to JS!</a>
+          <div class="d-flex justify-content-center flex-column align-items-center slide-container" onclick="location.href='JSpage/js.html';">
+          <img src="img/jslogo.png" class="imgResponsive">
+          <img src="img/jsimage.png" height="50%">
+
           </div>
         </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -74,6 +77,7 @@ const app = new Vue({
       <span class="sr-only">Next</span>
       </a>
       </div>
+      </template>
       </div>
       `
     }

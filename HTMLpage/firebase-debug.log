@@ -1,0 +1,106 @@
+[debug] [2020-02-27T16:38:33.765Z] ----------------------------------------------------------------------
+[debug] [2020-02-27T16:38:33.766Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\T11641.Training56\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-02-27T16:38:33.766Z] CLI Version:   7.13.1
+[debug] [2020-02-27T16:38:33.767Z] Platform:      win32
+[debug] [2020-02-27T16:38:33.767Z] Node Version:  v12.16.1
+[debug] [2020-02-27T16:38:33.768Z] Time:          Thu Feb 27 2020 13:38:33 GMT-0300 (Argentina Standard Time)
+[debug] [2020-02-27T16:38:33.768Z] ----------------------------------------------------------------------
+[debug] [2020-02-27T16:38:33.768Z] 
+[debug] [2020-02-27T16:38:33.774Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-27T16:38:33.775Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\T11641.Training56\Downloads\Task 4\HTMLpage
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project.
+[debug] [2020-02-27T16:39:15.957Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-02-27T16:39:15.957Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-02-27T16:39:16.956Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-27T16:39:16.970Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+
+[debug] [2020-02-27T16:39:18.776Z] <<< HTTP RESPONSE 400
+[debug] [2020-02-27T16:39:18.776Z] <<< HTTP RESPONSE BODY
+[debug] [2020-02-27T16:39:18.776Z] HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+[debug] [2020-02-27T16:39:19.690Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at module.exports (C:\Users\T11641.Training56\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\T11641.Training56\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:39:35)
+    at Request.self.callback (C:\Users\T11641.Training56\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:311:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at Request.<anonymous> (C:\Users\T11641.Training56\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:311:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at IncomingMessage.<anonymous> (C:\Users\T11641.Training56\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:417:28)
+    at IncomingMessage.emit (events.js:323:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1204:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to create Google Cloud project. See firebase-debug.log for more info.
+[debug] [2020-02-27T16:39:36.806Z] ----------------------------------------------------------------------
+[debug] [2020-02-27T16:39:36.808Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\T11641.Training56\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-02-27T16:39:36.808Z] CLI Version:   7.13.1
+[debug] [2020-02-27T16:39:36.808Z] Platform:      win32
+[debug] [2020-02-27T16:39:36.808Z] Node Version:  v12.16.1
+[debug] [2020-02-27T16:39:36.809Z] Time:          Thu Feb 27 2020 13:39:36 GMT-0300 (Argentina Standard Time)
+[debug] [2020-02-27T16:39:36.809Z] ----------------------------------------------------------------------
+[debug] [2020-02-27T16:39:36.809Z] 
+[debug] [2020-02-27T16:39:36.815Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-27T16:39:36.816Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\T11641.Training56\Downloads\Task 4\HTMLpage
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project.
+[debug] [2020-02-27T16:39:56.471Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+
+[debug] [2020-02-27T16:39:58.150Z] <<< HTTP RESPONSE 400
+[debug] [2020-02-27T16:39:58.150Z] <<< HTTP RESPONSE BODY
+[debug] [2020-02-27T16:39:58.151Z] HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+[debug] [2020-02-27T16:39:59.205Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at module.exports (C:\Users\T11641.Training56\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\T11641.Training56\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:39:35)
+    at Request.self.callback (C:\Users\T11641.Training56\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:311:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at Request.<anonymous> (C:\Users\T11641.Training56\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:311:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at IncomingMessage.<anonymous> (C:\Users\T11641.Training56\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:417:28)
+    at IncomingMessage.emit (events.js:323:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1204:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to create Google Cloud project. See firebase-debug.log for more info.

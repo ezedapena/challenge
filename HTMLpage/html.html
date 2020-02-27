@@ -38,11 +38,18 @@
 
       <!-- <component is="cards" :array="modulos.modulos"></component>
       <component is="quote" :quote="qod"></component> -->
+      <div id="vfor" class="col-12">
+        <div v-for="label in labels" class="divHTML border">
+          <h3 class="px-5 py-2">{{label.name}}</h3>
+          <h4 class="px-5 py-2">{{label.title}}</h4>
+          <p class="px-5 py-2">{{label.detail}}</p>
+        </div>
+      </div>
 
     </main>
 
     <footer class="bg-dark text-white text-center p-3 sticky">
-      <p>"Ezequiel Dapena ; Leando Alvarez ; Mauro Alvarez ; Ivan De oli ; Erica Curima - &#x1F1E6;&#x1F1F7; - &copy; 2020"</p>
+      <p>"Team MIL3R - &#x1F1E6;&#x1F1F7; - &copy; 2020"</p>
   </footer>
   
 
@@ -74,6 +81,7 @@
   <script src="js/bootstrap.min.js"></script>
   <!-- <script src="js/vue.js"></script> -->
   <script src="js/vue.min.js"></script>
+  <script src="json/html.js"></script>
   <script src="js/main.js"></script>
 </body>
 

@@ -37,7 +37,7 @@ body,
 
 main {
   height: 100%;
-  background: url("../img/HTML5.png"), linear-gradient(45deg, #edda4a, #e6470e);
+  background: url("../img/HTML5.png"), linear-gradient(80deg, #edda4a, #e6470e);
   /* background-color: hsla(27, 98%, 54%, 0.308); */
   /* background-image: url("../img/glamorous.svg"); */
   box-shadow: inset #292b29 0px 1px 20px 0px;
@@ -62,4 +62,19 @@ h1 .text-linethrough {
 .modal-body img {
   width: 100px;
   height: 100px;
+}
+
+.divHTML{
+  margin:5vh 0 ;
+  background-color: #ffffffCC;
+  border-radius: 10px 10px 10px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  h3 {
+    font-size: 120%;
+  }
+h4{
+  font-size: 110%;
+}
 }

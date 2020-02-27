@@ -40,8 +40,6 @@ body,
 main {
   height: 100%;
   background: url("../img/diamond.png"), linear-gradient(45deg, #1862d9, #03dffc);
-  /* background-color: hsla(27, 98%, 54%, 0.308); */
-  /* background-image: url("../img/glamorous.svg"); */
   box-shadow: inset #292b29 0px 1px 20px 0px;
 }
 
@@ -70,4 +68,21 @@ h1 .text-linethrough {
   height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
+}
+h2 , p{
+  font-family: 'ZCOOL QingKe HuangYou' ;
+}
+h2{
+  font-size: 200%;
+}
+p{
+  font-size: 125%;
+}
+
+.slide-container{
+  margin: 5vh 20vw;
+  background-color: #ffffff77;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px;
+  height: 80%;
 }
