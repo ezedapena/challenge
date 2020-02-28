@@ -9,17 +9,17 @@
   <title>MIL3R´s HTML Guide</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/css.css">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
   <div id="app" class="bg-light d-flex flex-column justify-content-between">
     <nav class="navbar  navbar-light bg-dark navbar-expand-md">
       <a class="navbar-brand mr-4" href="">
-        <img id="logo" class="d-none d-sm-inline" src="img/logo.png" alt="logo">
-        <img id="logo" class="d-sm-none" src="img/logo.png" alt="logo">
-        <h1 class="text-white d-inline ">HTML</h1>
-        <span class="d-none d-lg-inline text-white"> | Enter the world of HTML with the MIL3Rs!</span>
+        <img id="logo" class="d-none d-sm-inline" src="img/title.png" alt="logo">
+        <img id="logo" class="d-sm-none" src="img/smalltitle.png" alt="logo">
+        <span class="d-none d-lg-inline text-white"> | HTML.</span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -40,7 +40,8 @@
       <component is="quote" :quote="qod"></component> -->
       <div id="vfor" class="col-12">
         <div v-for="label in labels" class="divHTML border">
-          <h3 class="px-5 py-2">{{label.name}}</h3>
+          <div class="transparent-shadow"><h3 class="px-5 py-2">{{label.name}}</h3></div>
+          
           <h4 class="px-5 py-2">{{label.title}}</h4>
           <p class="px-5 py-2">{{label.detail}}</p>
         </div>

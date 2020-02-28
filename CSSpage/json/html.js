@@ -1,0 +1,132 @@
+let data =
+  [{
+      "name": "<!DOCTYPE html>",
+      "title": "Start",
+      "detail": "This label will indicate the language in which we will work, should be placed on the first line and does not need to close."
+    },
+    {
+      "name": "<html lang='xx'>",
+      "title": "Start",
+      "detail": "This tag indicates the Start of our work and the lang = 'xx' attribute will indicate in the language of the page. In addition, the tag should be closed at the end with a </html>."
+    },
+    {
+      "name": "<head>",
+      "title": "Headers",
+      "detail":"The <head> tag will indicate the Home of the Headers of the page, where the style sheets will be loaded and the page will be titled, among other things, it should also be closed with a </head>."
+    },
+    {
+      "name": "<title>",
+      "title": "Headers",
+      "detail": "This tag will indicate the title of our page, it must be closed with a </title>."
+    },
+    {
+      "name": "<link href='path/MyStyle.css'>",
+      "title": "Headers",
+      "detail": "This label will load our style sheet, it also does not need to close."
+    },
+    {
+      "name": "<body>",
+      "title": "Body",
+      "detail": "This tag as it's name says is the Body of our page, here we will place everything that will be seen on the page. It must also be closed with a </body> at the end."
+    },
+    {
+      "name": "<div>",
+      "title": "Block",
+      "detail": "The <div> tag will group everything that is inside it in a Block, and so grouping similar elements or moving the Block will accommodate everything together, it should also be closed with a </div>. In addition to this, other tags emerged who do the same but give more information, such as <header>, <main>, <footer> for example. "
+    },
+    {
+      "name": "<p>",
+      "title": "Text",
+      "detail": "The <p> tag indicates that Text was placed, it must be closed with </p> and will be indented upon closing."
+    },
+    {
+      "name": "<pre>",
+      "title": "Text",
+      "detail": "The <pre> tag indicates that Text was placed, it must be closed with </pre> and will be indented upon closing."
+    },
+    {
+      "name": "<h1>,<h2>,...,<h6>",
+      "title": "Text",
+      "detail": "The hX tags indicate that it is a Text with a certain weight on the page, the smaller the number the greater the weight, the tag must be closed with a </hX>, where X is the number with which it was opened."
+    },
+    {
+      "name": "<ul>",
+      "title": "List",
+      "detail": "The <ul> tag indicates the Home of an unordered List, that is, items will be placed without any numbering, it must be closed with a </ul>."
+    },
+    {
+      "name": "<ol>",
+      "title": "List",
+      "detail": "The <ol> tag indicates the Home of an ordered List, that is, numbering items will be placed, it must be closed with a </ol>."
+    },
+    {
+      "name": "<li>",
+      "title": "List",
+      "detail": "The <li> tag indicates that an item of the type of the parent List should be placed, under a <ul> or <ol> there can only be one <li>, that is, it is your only possible child, it must also be closed with a </li>. "
+    },
+    {
+      "name": "<a>",
+      "title": "Link",
+      "detail": "The <a href='XXXXXXX.html'> Link </a> tag indicates that the Text enclosed will be a link that, when clicked, will open the href attribute page, and must also be closed with a </a>."
+    },
+    {
+      "name": "<table>",
+      "title": "Table",
+      "detail": "The <table> tag indicates the Home of a Table, it must be closed with a </table>."
+    },
+    {
+      "name": "<thead>",
+      "title": "Table",
+      "detail": "The <thead> tag indicates that we will work on the heading of a Table, it must also be closed with a </thead>."
+    },
+    {
+      "name": "<tbody>",
+      "title": "Table",
+      "detail": "The <tbody> tag indicates that we will work on the Body of a Table, it must also be closed with a </tbody>."
+    },
+    {
+      "name": "<tr>",
+      "title": "Table",
+      "detail": "The <tr> tag will add a row to the Table and also allow us to modify it, it must be closed with a </tr> and this will imply that we have finished modifying that row."
+    },
+    {
+      "name": "<th rowspan='X' colspan='Y'>",
+      "title": "Table",
+      "detail": "The <th> tag indicates that we will place a Table header, it must be closed with a </th> and, if there are several Headers, there will be a <th> and </th> for each of them,  and the colspan and rowspan attributes will allow us to make the cell larger if required." 
+    },
+    {
+      "name": "<td rowspan='X' colspan='Y'>",
+      "title": "Table",
+      "detail": "The <td> tag indicates that we will work in a table cell, it must be closed with a </td> and the colspan and rowspan attributes will allow us to make the cell larger if required." 
+    },
+    {
+      "name": "<form method='X' action='X.html'>",
+      "title": "Form",
+      "detail": "The <form> tag indicates that we will initiate a Form, the method will define what we will do, the most common is the 'get' that takes the data that we place in the Form, and the 'action' the page to which you will redirect, you must also close with a </form>. "
+    },
+    {
+      "name": "<label for='idOfInput'>",
+      "title": "Form",
+      "detail": "The <label> tag will allow us to place a Text that describes what the purpose of a field is, also it will be related to the input that threads the id equal to what is inside its for attribute."
+    },
+    {
+      "name": "<input type='text'>",
+      "title": "Form",
+      "detail": "The <input type = 'text'> tag will allow us to place Text and send it as data, the name attribute will indicate under which 'key' will be saved, this tag does not need to be closed." 
+    },
+    {
+      "name": "<input type='radio'>",
+      "title": "Form",
+      "detail": "The Label <input type='radio'> will allow us to fit various options from which you can choose only one, these options all must have the same name and a different value, because the option chosen will send a specific value. You do not need to be closed." 
+    },
+    {
+      "name": "<input type='checkbox'>",
+      "title": "Form",
+      "detail": "The Label <input type='checkbox'> will allow us to fit various options from which you can choose none, some, or all of them. These options should have all the same name and a value different, because each one will send different information. You do not need to be closed." 
+    },
+    {
+      "name": "<input type='submit'>",
+      "title": "Form",
+      "detail": "The Label <input type='submit'> will allow us to place a button that when pressed will send all data and will open the page to which reference is made in the Label <form>, and the value attribute will be the text that will appear in the button. You do not need to be closed."
+    },
+  ]

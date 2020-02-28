@@ -1,6 +1,7 @@
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oxanium' , sans-serif;
+  
 }
 
 
@@ -19,13 +20,21 @@
   background-color: #edda4a;
   border-color: #e6470e;
 }
-
+.linkimgs{
+  width: 30vw;
+}
+#logo-sm{
+  height: 150%;
+}
 #logo {
   max-height: 70px;
 }
 
 h1 {
   font-size: 1.8em;
+}
+h4{
+  text-decoration: underline;
 }
 
 body,
@@ -34,13 +43,16 @@ body,
   max-height: 100%;
   min-height: calc(var(--vh, 1vh) * 100);
 }
-
+.transparent-shadow{
+  box-shadow: #292b29 0px 1px 20px 0px;
+}
 main {
   height: 100%;
-  background: url("../img/HTML5.png"), linear-gradient(80deg, #edda4a, #e6470e);
+  background: url("../img/rosa.jpg"), linear-gradient(80deg, #edda4a, #e6470e);
   /* background-color: hsla(27, 98%, 54%, 0.308); */
   /* background-image: url("../img/glamorous.svg"); */
   box-shadow: inset #292b29 0px 1px 20px 0px;
+  background-attachment: fixed;
 }
 
 footer a,
@@ -65,9 +77,12 @@ h1 .text-linethrough {
 }
 
 .divHTML{
+  color: #fff;
   margin:5vh 0 ;
-  background-color: #ffffffCC;
+  background-color: #a61f1f;
   border-radius: 10px 10px 10px 10px;
+  box-shadow:  #292b29 0px 1px 20px 0px;
+ 
 }
 
 @media only screen and (max-width: 600px) {

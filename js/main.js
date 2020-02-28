@@ -17,7 +17,8 @@ function random(min, max) {
 const app = new Vue({
   el:"#app",
   data:{
-    pages:[]
+    pages:[],
+    current: "principal"
   },
   methods:{},
   created(){
@@ -35,8 +36,27 @@ const app = new Vue({
     })
   },
   computed:{},
+  methods:{
+    start(){
+      app.current = "secondary"
+    }
+  },
   components:{
+    //academil3r
     principal:{
+      template:`
+      <div class="d-flex justify-content-center flex-wrap">
+        <img src="img/start.png" alt="start button"  onclick="app.start()" class="linkimgs">
+        <img src="img/play.png" alt="play button"  class="linkimgs">
+        <img src="img/start.png"  class="linkimgs">
+        
+
+      </div>
+      
+      `
+
+    },
+    secondary:{
       props:['array'],
       template:`
     
@@ -81,5 +101,6 @@ const app = new Vue({
       </div>
       `
     }
+    
   }
 })

@@ -9,17 +9,17 @@
   <title>MIL3R´s Front-End Guide</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/css.css">
-  <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
   <div id="app" class="bg-light d-flex flex-column justify-content-between">
     <nav class="navbar  navbar-light bg-dark navbar-expand-md">
       <a class="navbar-brand mr-4" href="">
-        <img id="logo" class="d-none d-sm-inline" src="img/logo.png" alt="logo">
-        <img id="logo" class="d-sm-none" src="img/logo.png" alt="logo">
-        <h1 class="text-white d-inline ">Front-End</h1>
-        <span class="d-none d-lg-inline text-white"> | Basic guide of HTML, CSS and JavaScript.</span>
+        <img id="logo-sm" class="d-none d-sm-inline" src="img/title.png" alt="logo">
+        <img id="logo" class="d-sm-none" src="img/smalltitle.png" alt="logo">
+        <span class="d-none d-lg-inline text-white"> | Basic guide of HTML , CSS and JS.</span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,7 +36,7 @@
 
     <main class="m-0 flex-grow-1 d-flex flex-wrap align-items-center justify-content-center bg-light">
 
-       <component is="principal" :array="pages"></component>
+       <component :is="current" :array="pages"></component>
 
     </main>
 

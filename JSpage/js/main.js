@@ -10,28 +10,38 @@ function updateSize() {
 window.addEventListener("resize", updateSize)
 updateSize();
 
-function random(min, max) {
+/*function random(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
-}
+}*/
 
 const app = new Vue({
   el:"#app",
   data:{
     qod:"",
+    labels: data,
     modulos:[]
-  },
+  }/*,
   methods:{},
   created(){
 
     async function fetchAll(){
-      let resPages = await fetch("./json/pages.json");
-      let json = await resPages.json();
+      let resQuotes = await fetch("./json/quotes.json");
+      let jsonQuotes = await resQuotes.json();
+  
+      let resModulos = await fetch("./json/modulos.json");
+      let jsonModulos = await resModulos.json();
+      
+      return [jsonQuotes,jsonModulos]
 
-      return json
     }
 
     fetchAll()
-  
+    .then(data => {
+      const index =random(0, data[0].quotes.length-1);
+      app.qod=data[0].quotes[index];
+      app.modulos=data[1];
+
+    })
   },
   computed:{},
   components:{
@@ -63,5 +73,5 @@ const app = new Vue({
       </blockquote>
       `
     }
-  }
+  }*/
 })

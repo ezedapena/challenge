@@ -1,6 +1,6 @@
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oxanium' , sans-serif;
 }
 
 
@@ -37,10 +37,11 @@ body,
 
 main {
   height: 100%;
-  background: url("../img/background.png"), linear-gradient(45deg, #edda4a, #f0eca1);
+  background: url("../img/foxtail.jpg"), linear-gradient(45deg, #edda4a, #f0eca1);
   /* background-color: hsla(27, 98%, 54%, 0.308); */
   /* background-image: url("../img/glamorous.svg"); */
   box-shadow: inset #292b29 0px 1px 20px 0px;
+  background-attachment: fixed;
 }
 
 footer a,
@@ -62,4 +63,25 @@ h1 .text-linethrough {
 .modal-body img {
   width: 100px;
   height: 100px;
+}
+
+.divHTML{
+  color: #000000;
+  margin:5vh 0 ;
+  background-color: #e0b83f;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow:  #292b29 0px 1px 20px 0px;
+ 
+}
+
+@media only screen and (max-width: 600px) {
+  h3 {
+    font-size: 120%;
+  }
+h4{
+  font-size: 110%;
+}
+}
+.transparent-shadow{
+  box-shadow: #292b29 0px 1px 20px 0px;
 }
