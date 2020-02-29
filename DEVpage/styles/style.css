@@ -1,0 +1,106 @@
+* {
+	font-family: 'Acme', sans-serif;
+}
+body
+{
+background-image: url(../images/diamond.png);
+margin:0;
+background-color: #16B0E3;
+background-position: bottom;
+
+}
+header
+{
+
+background-image: url(../images/fondo3.jpg);
+background-repeat: no-repeat;
+background-position: center;
+
+background-color: black;
+
+} 
+
+main {
+	box-shadow: inset #292b29 0px 1px 20px 0px;
+	margin: 0vw;
+}
+
+#logo { width: 10vw; display:block; margin:auto; } .photos{ width: 9vw;
+margin: 1%;
+
+}
+.members
+{
+	display: flex;
+	
+  	
+font-weight: bold;
+background-color: #ffffff99;
+border: 0.2vw solid white;
+border-radius: 2vw;
+margin-bottom:1vw;
+margin-left: 5vw;
+margin-right: 5vw;
+box-shadow: #292b29 0px 1px 20px 0px;
+
+}
+.photos{
+	width: 12vw;
+}
+#pause
+{
+	display: none;
+}
+#play{
+	width: 1.5vw;
+
+}
+
+
+
+
+/* version mobile*/
+
+
+
+@media screen and (max-width: 600px) {
+
+#logo{
+	width: 25vw;
+	height: 25vw;
+}
+
+
+.members{
+
+	height: 50vw;
+	border: 0.5vw solid white;
+}
+.members p{
+	font-size: 3.5vw;
+	
+
+}
+.members h2{
+	font-size: 6vw;
+	margin: 1vw;
+}
+.photos{
+	width: 15vw;
+	height: 15vw;
+	padding-top: 15vw;
+
+}
+#pause
+{
+	display: none;
+}
+#play{
+	width: 5vw;
+
+}
+
+header {
+	background-image: url(../images/fondo3.jpg);
+}
+}

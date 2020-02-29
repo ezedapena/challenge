@@ -1,40 +1,31 @@
 
 * {
   font-family: 'Oxanium' , sans-serif;
-  
 }
 
 
 .bg-purple {
-  background-color: #e6470e;
+  background-color: #f0eca1;
 }
 
 .btn-purple {
   color: #fff;
-  background-color: #e6470e;
-  border-color: #e6470e ;
+  background-color: #f0eca1;
+  border-color: #f0eca1 ;
 }
 
 .btn-purple:hover {
-  color: #e6470e;
+  color: #f0eca1;
   background-color: #edda4a;
-  border-color: #e6470e;
+  border-color: #f0eca1;
 }
-.linkimgs{
-  width: 30vw;
-}
-#logo-sm{
-  height: 150%;
-}
+
 #logo {
   max-height: 70px;
 }
 
 h1 {
   font-size: 1.8em;
-}
-h4{
-  text-decoration: underline;
 }
 
 body,
@@ -43,16 +34,15 @@ body,
   max-height: 100%;
   min-height: calc(var(--vh, 1vh) * 100);
 }
-.transparent-shadow{
-  box-shadow: #292b29 0px 1px 20px 0px;
-}
+
 main {
   height: 100%;
-  background: url("../img/rosa.jpg"), linear-gradient(80deg, #edda4a, #e6470e);
+  background: url("../img/foxtail.jpg"), linear-gradient(45deg, #edda4a, #f0eca1);
   /* background-color: hsla(27, 98%, 54%, 0.308); */
   /* background-image: url("../img/glamorous.svg"); */
   box-shadow: inset #292b29 0px 1px 20px 0px;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 footer a,
@@ -77,20 +67,16 @@ h1 .text-linethrough {
 }
 
 .divHTML{
-  color: #fff;
+  color: #000000;
   margin:5vh 0 ;
-  background-color: #a61f1f;
+  background-color: #e0b83f;
   border-radius: 10px 10px 10px 10px;
   box-shadow:  #292b29 0px 1px 20px 0px;
  
 }
-
-.linkimgs{
-  width: 30vw;
-}
 #SOS{
-  position: sticky;
-  left: 99rem;
+  position: fixed;
+  right: 1rem;
   bottom: 10vh;
 
 }
@@ -104,6 +90,7 @@ h1 .text-linethrough {
   display: flex;
   flex-direction: column;
 }
+
 @media only screen and (max-width: 600px) {
   h3 {
     font-size: 120%;
@@ -127,12 +114,6 @@ display: flex;
  flex-wrap: wrap;
 }
 }
-
 p{
   font-size: medium;
 }
-button{
-  margin: 10px;
-}
-
-

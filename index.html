@@ -7,10 +7,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="author" content="Ezequiel Dapena - Leandro Alvarez">
   <title>MIL3R´s Front-End Guide</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/css.css">
+  <link href="styles/style.css" id="cssArchivo" rel="stylesheet" >
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="styles/style.css"> -->
   <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  
 </head>
 
 <body>
@@ -36,7 +38,7 @@
 
     <main class="m-0 flex-grow-1 d-flex flex-wrap align-items-center justify-content-center bg-light">
 
-       <component :is="current" :array="pages"></component>
+       <component :is="current" :array="pages" :var="dialog"></component>
 
     </main>
 
@@ -72,8 +74,6 @@
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <!-- <script src="js/vue.js"></script> -->
-  <!-- <script src="js/vue.min.js"></script> -->
   <script src="js/main.js"></script>
 </body>
 

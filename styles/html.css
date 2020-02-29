@@ -53,6 +53,7 @@ main {
   /* background-image: url("../img/glamorous.svg"); */
   box-shadow: inset #292b29 0px 1px 20px 0px;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 footer a,
@@ -89,8 +90,8 @@ h1 .text-linethrough {
   width: 30vw;
 }
 #SOS{
-  position: sticky;
-  left: 99rem;
+  position: fixed;
+  right: 1rem;
   bottom: 10vh;
 
 }
@@ -104,6 +105,7 @@ h1 .text-linethrough {
   display: flex;
   flex-direction: column;
 }
+
 @media only screen and (max-width: 600px) {
   h3 {
     font-size: 120%;
@@ -127,12 +129,6 @@ display: flex;
  flex-wrap: wrap;
 }
 }
-
 p{
   font-size: medium;
 }
-button{
-  margin: 10px;
-}
-
-

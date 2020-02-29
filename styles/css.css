@@ -1,40 +1,33 @@
 
 * {
   font-family: 'Oxanium' , sans-serif;
-  
 }
 
 
 .bg-purple {
-  background-color: #e6470e;
+  background-color: #fff;
 }
 
 .btn-purple {
-  color: #fff;
-  background-color: #e6470e;
-  border-color: #e6470e ;
+  color: rgb(81, 109, 126);
+  background-color: #fff;
+  border-color: #000000 ;
 }
 
 .btn-purple:hover {
-  color: #e6470e;
-  background-color: #edda4a;
-  border-color: #e6470e;
-}
-.linkimgs{
-  width: 30vw;
-}
-#logo-sm{
-  height: 150%;
+  color: #fff;
+  background-color: #a1f0dd;
+  border-color: #000000;
 }
 #logo {
   max-height: 70px;
 }
+.linkimgs{
+  width: 30vw;
+}
 
 h1 {
   font-size: 1.8em;
-}
-h4{
-  text-decoration: underline;
 }
 
 body,
@@ -43,16 +36,15 @@ body,
   max-height: 100%;
   min-height: calc(var(--vh, 1vh) * 100);
 }
-.transparent-shadow{
-  box-shadow: #292b29 0px 1px 20px 0px;
-}
+
 main {
   height: 100%;
-  background: url("../img/rosa.jpg"), linear-gradient(80deg, #edda4a, #e6470e);
+  background: url("../img/pluma.jpg"), linear-gradient(45deg, #a1f0dd, #fff);
   /* background-color: hsla(27, 98%, 54%, 0.308); */
   /* background-image: url("../img/glamorous.svg"); */
-  box-shadow: inset #292b29 0px 1px 20px 0px;
+  box-shadow: inset #292b29 0px 1px 10px 0px;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 footer a,
@@ -70,27 +62,29 @@ footer a:visited {
 h1 .text-linethrough {
   font-size: 0.75em;
 }
+.divHTML{
+  color: #000000;
+  margin:5vh 0 ;
+  background-color:#1a2c96;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow:  #292b29 0px 1px 20px 0px;
+  border: 2px solid black;
+ 
+}
+.transparent-shadow{
+  box-shadow: #292b29 0px 1px 10px 0px;
+}
+h4{
+  text-decoration: underline;
+}
 
 .modal-body img {
   width: 100px;
   height: 100px;
 }
-
-.divHTML{
-  color: #fff;
-  margin:5vh 0 ;
-  background-color: #a61f1f;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow:  #292b29 0px 1px 20px 0px;
- 
-}
-
-.linkimgs{
-  width: 30vw;
-}
 #SOS{
-  position: sticky;
-  left: 99rem;
+  position: fixed;
+  right: 1rem;
   bottom: 10vh;
 
 }
@@ -104,6 +98,7 @@ h1 .text-linethrough {
   display: flex;
   flex-direction: column;
 }
+
 @media only screen and (max-width: 600px) {
   h3 {
     font-size: 120%;
@@ -127,12 +122,6 @@ display: flex;
  flex-wrap: wrap;
 }
 }
-
 p{
   font-size: medium;
 }
-button{
-  margin: 10px;
-}
-
-
